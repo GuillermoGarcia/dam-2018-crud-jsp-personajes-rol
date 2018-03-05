@@ -15,4 +15,4 @@
   * Personaje 
   * Característica
 
-  ![Estructura de las Tablas](https://github.com/GuillermoGarcia/dam-2018-crud-jsp-personajes-rol/jspcrud01.jpg)
+  ![Estructura de las Tablas](https://github.com/GuillermoGarcia/dam-2018-crud-jsp-personajes-rol/blob/master/jspcrud01.jpg)
