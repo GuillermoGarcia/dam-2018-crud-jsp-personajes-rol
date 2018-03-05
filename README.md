@@ -8,11 +8,13 @@
 
 # Estructura
 
-  Se usaran las siguientes bases de datos:
+  Se usaran las siguientes tablas en la base de datos:
 
   * Partida
   * Jugador
   * Personaje 
   * Característica
 
+  En la siguiente imagen podemos ver dichas tablas con sus columnas y sus relaciones
+  
   ![Estructura de las Tablas](https://github.com/GuillermoGarcia/dam-2018-crud-jsp-personajes-rol/blob/master/jspcrud01.jpg)
