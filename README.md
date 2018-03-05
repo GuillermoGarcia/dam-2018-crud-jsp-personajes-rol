@@ -15,4 +15,4 @@
   * Personaje 
   * Característica
 
-  ![Image of Yaktocat](https://github.com/GuillermoGarcia/dam-2018-crud-jsp-personajes-rol/jspcrud01.jpg)
+  ![Estructura de las Tablas](https://github.com/GuillermoGarcia/dam-2018-crud-jsp-personajes-rol/jspcrud01.jpg)
