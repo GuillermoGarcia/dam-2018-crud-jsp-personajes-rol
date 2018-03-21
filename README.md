@@ -20,7 +20,7 @@
 
 # Instalación NetBeans
 
-  Para Instalarlo en NetBeans, copiamos todos los archivos *.jsp, *.css y *.js a nuestra carpeta "web" del proyecto.
+  Para Instalarlo en NetBeans, copiamos todos los archivos *.jsp, *.css y *.js a nuestra carpeta "Web Pages" del proyecto.
   Además debemos copiar el Paquete de Clases en la carpeta de "Source Packages" del proyecto.
 
   Al final nos debe quedar una estructura como la que se ve en la siguiente imagen.
