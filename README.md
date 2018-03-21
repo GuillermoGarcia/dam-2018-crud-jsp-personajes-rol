@@ -6,15 +6,64 @@
 
   Para esta practica, la temática sera la gestión de jugadores y sus personajes en distintas partidas de rol.
 
-# Estructura
+# Estructura de la Base de Datos
 
   Se usaran las siguientes tablas en la base de datos:
 
   * Partida
   * Jugador
-  * Personaje 
-  * Característica
+  * Personaje
 
   En la siguiente imagen podemos ver dichas tablas con sus columnas y sus relaciones
   
   ![Estructura de las Tablas](https://github.com/GuillermoGarcia/dam-2018-crud-jsp-personajes-rol/blob/master/jspcrud01.jpg)
+
+
+# JSP
+
+  La página web esta presentada en una única página desde la cual podemos gestionar las tres entidades (Partidas, Jugadores y Personajes)
+
+  ## Vista General
+
+    ![Vista General](https://github.com/GuillermoGarcia/dam-2018-crud-jsp-personajes-rol/blob/master/jspcrud02.png)
+
+    En el margen derecho encontramos los botones para crear nuevas entidades (Partidas, Jugadores y Personajes)
+    En el resto de la página está el listado de todas las partidas, con su información
+      * Nombre de la Partida
+      * Director de la Partida
+      * Descripción de la Partida
+      * Personajes de la Partida (Jugador al que pertenece el Personaje)
+  
+  ## Gestión de las Partidas.
+
+    Si usamos el botón para añadir una partida nueva, no aparecerá una ventana emergente, como podéis ver en la siguiente imagen, con un formulario para rellenar los datos de la partida.
+
+    ![Vista General](https://github.com/GuillermoGarcia/dam-2018-crud-jsp-personajes-rol/blob/master/jspcrud05.png)
+
+    Esta ventana emergente también aparecerá su pulsamos sobre el botón "Editar Partida" pero con los datos de la partida rellenos.
+
+    ![Vista General](https://github.com/GuillermoGarcia/dam-2018-crud-jsp-personajes-rol/blob/master/jspcrud06.png)
+
+    Por último, al lado del botón "Editar Partida", encontramos el botón "Borrar Partida" con el que borramos una partida.
+    _Nota: Si se borra una Partida los Personajes asignados a esa Partida no se borraran sino que quedaran libres._
+
+  ## Gestión de los Jugadores.
+
+    Si usamos el botón para añadir un nuevo jugador, no aparecerá una ventana emergente, como podéis ver en la siguiente imagen, con un formulario para rellenar los datos del jugador.
+
+    ![Vista General](https://github.com/GuillermoGarcia/dam-2018-crud-jsp-personajes-rol/blob/master/jspcrud03.png)
+
+    Esta ventana emergente también aparecerá su pulsamos sobre el nombre del Jugador con los datos actuales del jugador, además aparecerá un botón extra para poder borrar el Jugador.
+    _Nota: Un Jugador no podrá ser borrado mientras tenga algún Personaje._
+
+    ![Vista General](https://github.com/GuillermoGarcia/dam-2018-crud-jsp-personajes-rol/blob/master/jspcrud04.png)
+
+  ## Gestión de los Personajes.
+
+    Si usamos el botón para añadir un nuevo jugador, no aparecerá una ventana emergente, como podéis ver en la siguiente imagen, con un formulario para rellenar los datos del jugador.
+
+    ![Vista General](https://github.com/GuillermoGarcia/dam-2018-crud-jsp-personajes-rol/blob/master/jspcrud07.png)
+
+    Esta ventana emergente también aparecerá su pulsamos sobre el botón "Editar Partida" pero con los datos de la partida rellenos.
+
+    ![Vista General](https://github.com/GuillermoGarcia/dam-2018-crud-jsp-personajes-rol/blob/master/jspcrud08.png)
