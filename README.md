@@ -77,3 +77,11 @@
   ![Gestión de Personaje](https://github.com/GuillermoGarcia/dam-2018-crud-jsp-personajes-rol/blob/master/jspcrud08.png)
 
   Si pulsamos sobre el botón de Borrar, de color rojo, en la misma linea que el personaje, se quitará dicho personaje de la partida.
+
+# Próximas Funcionalidades
+
+  Para la siguiente versión se incluirá las siguientes funcionalidades:
+  * Botón de Borrado de Personajes.
+  * Añadir Características al Personaje (Fortaleza, Constitución, Agilidad....)
+  * Listado de Habilidades (Hablar Orco, Usar Objeto, Atacar con arma....)
+  * Asociar Habilidades a cada Personaje con un valor para cada uno
